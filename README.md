@@ -3,7 +3,7 @@
 ## Summary
 This data pipeline project evaluates the structural economic viability of Pennsylvania's **\$7.25 hourly minimum wage** using regional housing metrics from the **U.S. Department of Housing and Urban Development (HUD)** and baseline survival indicators from the **MIT Living Wage Calculator**. 
 
-By evaluating the metrics through the specific lens of Lancaster County, PA, this repository models how current statutory wages intersect with localized market inflation, cost-of-living constraints, and real-world rental burdens.
+By evaluating the metrics through the lens of Lancaster County, PA, this repository models how current statutory minimum wage intersect with hosuing costs, cost-of-living, and rental prices.
 
 ---
 
@@ -19,11 +19,11 @@ By evaluating the metrics through the specific lens of Lancaster County, PA, thi
 ---
 
 ## Data
-1. **Data Extraction/Cleaning (SQL)
+1. **Data Extraction/Cleaning (SQL)**
 2. **Analyis (R):** `tidyverse` libraries to evaluate margins and deficit variations.
 ---
 
 ## Policy Implications
-In modern labor economics, a housing allocation surpassing **30%** of gross income designates an employee as structurally rent-burdened. 
+An income allocation surpassing **30%** of gross income to housing designates an employee as rent-burdened. 
 
-This model demonstrates that at 108.3%, an individual is completely locked out of localized market housing availability. This mathematical deficit underlines a critical systemic reality that low-wage workers within Pennsylvania cannot survive independently without relying heavily on state and federal safety net structures, working multiple jobs, or experiencing extreme housing insecurity.
+This data demonstrates that at 108.3%, an individual is completely locked out of localized housing markets. This deficit underlines a critical systemic reality that low-wage workers within Pennsylvania cannot survive independently without relying heavily on state and federal safety net structures, working multiple jobs, or experiencing extreme housing insecurity.
